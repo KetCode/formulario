@@ -7,7 +7,7 @@ import 'package:url_launcher/url_launcher.dart';
 //URL Planilha
   _launchPlanilha() async {
     const url =
-        'https://docs.google.com/spreadsheets/d/11jBoeIpv717utJyfFJYzrvNHvVdMonhmV290RrfgD_w/edit#gid=0';
+        'https://docs.google.com/spreadsheets/d/;
     if (await canLaunch(url)) {
       await launch(url);
     } else {
