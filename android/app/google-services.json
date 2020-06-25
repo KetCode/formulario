@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "900016737451",
+    "firebase_url": "https://fireformulario.firebaseio.com",
+    "project_id": "fireformulario",
+    "storage_bucket": "fireformulario.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:900016737451:android:a9ceb02abd7f40b9a8bbee",
+        "android_client_info": {
+          "package_name": "com.ketcode.formulario"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "900016737451-an30ss4d6o336srvbh0t6suo0l2rhav8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-MJByQbpk9DXE99weLk7MWlWJGSA_R-4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "900016737451-an30ss4d6o336srvbh0t6suo0l2rhav8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
