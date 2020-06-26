@@ -164,7 +164,9 @@ class _SheetScreenState extends State<SheetScreen> {
                               context: context,
                               initialDate: currentValue ?? DateTime.now(),
                               firstDate: DateTime(1900),
-                              lastDate: DateTime(2050));
+                              lastDate: DateTime(2050)),
+                              locale: Locale("pt", "BR"),
+                              helpText: 'Selecione a data');
                           inputValue = date;
                           return inputValue;
                         },
