@@ -1,5 +1,7 @@
-import 'package:formulario/screens/login.dart';
+// import 'package:formulario/screens/login.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:formulario/screens/sheets/sheet_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -18,7 +20,7 @@ class MyApp extends StatelessWidget {
         Locale("pt", "BR")
       ],
       debugShowCheckedModeBanner: false,
-      home: LoginScreen(), // Pagina que vai abrir ao iniciar o app.
+      home: SheetScreen(), // Pagina que vai abrir ao iniciar o app.
     );
   }
 }
