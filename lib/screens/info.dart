@@ -27,7 +27,7 @@ class Info extends StatelessWidget {
             SizedBox(height: 10,),
             FlatButton(onPressed: (){Navigator.push(
             context,
-            MaterialPageRoute(builder: (_) => PolPriv()));}, child: Text('Teste',style: TextStyle(fontSize: 14.0,)),),
+            MaterialPageRoute(builder: (_) => PolPriv()));}, child: Text('Politica de Privacidade',style: TextStyle(fontSize: 14.0,)),),
             SizedBox(height: 10,),
             Text('Para mais informações',style: TextStyle(fontSize: 12.0,)),
             Text('entre em contato:',style: TextStyle(fontSize: 12.0,)),
