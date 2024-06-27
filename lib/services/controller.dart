@@ -8,12 +8,12 @@ class FormController {
   final void Function(String) callback;
 
   // Google App Script Web URL
-  static const String URL = "https://script.google.com/;
+  static const String URL = "https://script.google.com/";
   static const STATUS_SUCCESS = "SUCCESS";
   FormController(this.callback);
   void submitForm(FeedbackForm feedbackForm) async{
     try{
-      await http.get(URL + feedbackForm.toParams()).then(
+      await http.get(Uri.parse(URL + feedbackForm.toParams())).then(
           (response){
             callback(convert.jsonDecode(response.body)['status']);
           });
