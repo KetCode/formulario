@@ -7,7 +7,7 @@ import 'package:url_launcher/url_launcher.dart';
 //URL Planilha
   _launchPlanilha() async {
     const url =
-        'https://docs.google.com/spreadsheets/d/;
+        'https://docs.google.com/spreadsheets/d/';
     if (await canLaunch(url)) {
       await launch(url);
     } else {
@@ -20,17 +20,20 @@ Drawer customDrawer(BuildContext context) {
           child: Column(
         children: <Widget>[
           Row(children: <Widget>[
-            SizedBox(
-              width: 92,
-              height: 92,
-              child: Image.asset(
-                  "assets/images/iconLogo.png"), 
+            Padding(
+              padding: const EdgeInsets.fromLTRB(15, 25, 15, 15),
+              child: SizedBox(
+                width: 64,
+                height: 64,
+                child: Image.asset(
+                    "assets/images/iconLogo.png"),
+              ),
             ),
             Padding(
-              padding: const EdgeInsets.all(50.0),
+              padding: const EdgeInsets.fromLTRB(0, 15, 5, 5),
               child: Text(
-                '     Formulário',
-                style: TextStyle(fontWeight: FontWeight.bold),
+                'Formulário',
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22.0,),
               ),
             ),
           ]),
