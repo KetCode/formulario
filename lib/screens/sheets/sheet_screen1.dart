@@ -183,36 +183,15 @@ class _SheetScreen1State extends State<SheetScreen1> {
               SizedBox(
                 height: 15,
               ),
-              Container(
-                height: 60,
-                alignment: Alignment.center,
-                decoration: BoxDecoration(
-                  gradient: LinearGradient(
-                    begin: Alignment.topLeft,
-                    end: Alignment.bottomRight,
-                    stops: [0.3, 1],
-                    colors: [
-                      Colors.white, //0xFFF58524
-                      Colors.white, // Cores do gradiente do botão. /0xFFF92B7F
-                    ],
-                  ),
-                  borderRadius: BorderRadius.all(
-                    Radius.circular(5),
-                  ),
-                ),
-                child: Center(
-                  child: FlatButton(
-                    onPressed: _submitForm,
-                    child: Text(
-                      'Registrar dados',
-                      style: TextStyle(
-                        fontWeight: FontWeight.bold,
-                        color: Colors.grey.shade800,
-                        fontSize: 20,
-                      ),
-                    ),
-                  ),
-                ),
+              ElevatedButton(
+                onPressed: _submitForm,
+                child: Text('Registrar dados',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    color: Colors.grey.shade200,
+                    fontSize: 20,
+                  ),),
+                style: ElevatedButton.styleFrom(shape: StadiumBorder(), primary: Colors.black, fixedSize: Size(double.infinity,55),),
               ),
               SizedBox(
                 height: 15,
