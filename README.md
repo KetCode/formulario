@@ -1,4 +1,22 @@
-# formulario
+# Welcome to Formulário!
+
+Just a website that you can send informations to excel!
+
+Example of what you will see:
+
+![homepage](img.png)
+![drawer](drawer.png)
+
+# What is used
+
+- Flutter
+- Dart
+
+## Method
+
+- API
+- Async/Await
+- fetch
 
 A new Flutter project.
 
